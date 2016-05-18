@@ -1,0 +1,1 @@
+-define(Cut(Name),re:split(atom_to_list(Name),"[@]",[{return,list}])).
